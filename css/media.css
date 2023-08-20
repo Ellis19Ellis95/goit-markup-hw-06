@@ -371,8 +371,18 @@
 
 
 
-@media (min-width: 1158px) {
+@media (max-width: 1158px) {
+.container-footer.container {
+        max-width: 1116px;
+    }
 
+    .container-pref.container {
+        max-width: 1116px;
+    }
+
+    .container-team.container {
+        max-width: 1116px;
+    }
 
 }
 
