@@ -433,7 +433,7 @@
     margin: 16px;
 }
 }
-/*.container-footer {
+.container-footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -443,5 +443,5 @@
 
 }
 
-} */
+
 
