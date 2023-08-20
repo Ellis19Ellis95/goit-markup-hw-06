@@ -379,16 +379,29 @@
 
 
 @media (min-width: 768px) {
-
+.container-footer {
+        display: flex;
+        flex-direction: row;
+        flex-basis: calc(100% / 2);
+        justify-content: center;
+        align-items: center;
+        /* align-items: baseline; */
+        gap: 72px;
 
 
 }
-
+}
 @media (min-width: 428px) {
-
+.container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* align-items: baseline; */
+        gap: 72px;
 
 }
 
-
+}
 
 
