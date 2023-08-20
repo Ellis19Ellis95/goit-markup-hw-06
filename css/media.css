@@ -430,9 +430,9 @@
 
 }
 .pref-list-item {
-    margin: 16px;
+    margin: 40px;
 }
-}
+
 .container-footer {
         display: flex;
         flex-direction: column;
@@ -442,6 +442,9 @@
         gap: 72px;
 
 }
+
+}
+
 
 
 
