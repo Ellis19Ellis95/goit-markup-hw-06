@@ -1,4 +1,4 @@
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
 
     .header .nav-list,
     .header .address {
@@ -6,7 +6,7 @@
     }
 }
 
-@media (min-width: 1158px) {
+@media (max-width: 1157px) {
 
     .about-section,
     .icon-box {
@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (min-width: 0px, max-width: 767.99px) {
+@media screen and (min-width: 428px) {
     .address-phone {
         font-size: 36px;
         letter-spacing: 0.72px;
@@ -28,7 +28,7 @@
         gap: 72px;
     }
 }
-@media (min-width: 0px, max-width: 767.99px) {
+@media (min-width: 428px) {
     .container {
         max-width: 768px;
     }
