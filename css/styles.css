@@ -269,7 +269,7 @@ img {
 .pref-list {
     display: flex;
     flex-wrap: wrap;
-    /*gap: 24px;*/  
+    gap: 72px; 
 }
 
 /*.pref-list-item {

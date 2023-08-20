@@ -6,7 +6,7 @@
     }
 }
 
-@media (max-width: 1157px) {
+@media (min-width: 1157px) {
 
     .about-section,
     .icon-box {
@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 0px, max-width: 428px) {
     .address-phone {
         font-size: 36px;
         letter-spacing: 0.72px;
@@ -25,10 +25,10 @@
         gap: 56px;
     }
    .pref-list {
-gap: 72px;
+        gap: 72px;
+    }
 }
-}
-@media (min-width: 768px) {
+@media (min-width: 768px) and (min-resolution: 192dpi) {
     .container {
         max-width: 768px;
     }
@@ -192,7 +192,7 @@ gap: 72px;
     }
 }
 
-@media (min-width: 1158px) {
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
     /*.header {
         padding: 24px 0;
     }*/
@@ -373,7 +373,7 @@ gap: 72px;
 
 
 
-@media (max-width: 1158px) {
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
 .container-footer.container {
         max-width: 1116px;
     }
@@ -390,7 +390,7 @@ gap: 72px;
 
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (min-resolution: 192dpi) {
 .container-footer {
         display: flex;
         flex-direction: row;
@@ -428,7 +428,7 @@ gap: 72px;
     transition: transform 250ms ease-in-out;
 }
 }
-@media (max-width: 428px) {
+@media (min-width: 0px) and (max-width: 428px) {
 .header {
     padding-top: 24.5px;
     padding-bottom: 24.5px;
