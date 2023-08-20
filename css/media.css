@@ -390,7 +390,13 @@
 
 }
 .container-footer.container {
-    max-width: 1158px;
+    max-width: 584px;
+}
+.container-pref.container {
+    max-width: 584px;
+}
+.container-team.container {
+    max-width: 584px;
 }
 .menu-container {
     position: fixed;
@@ -414,7 +420,7 @@
 
 }
 .pref-list-item {
-    margin: 72px;
+    margin: 16px;
 }
 
 /*.container-footer {
