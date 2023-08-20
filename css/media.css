@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (min-width: 428px) {
+@media screen and (max-width: 767.98px) {
     .address-phone {
         font-size: 36px;
         letter-spacing: 0.72px;
@@ -28,7 +28,7 @@
         gap: 72px;
     }
 }
-@media (min-width: 428px) {
+@media (max-width: 768px;) {
     .container {
         max-width: 768px;
     }
@@ -390,7 +390,7 @@
 
 
 
-@media (min-width: 768.99px)  {
+@media (min-width: 768px)  {
 .container-footer {
         display: flex;
         flex-direction: row;
