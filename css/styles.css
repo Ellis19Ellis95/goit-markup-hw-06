@@ -448,9 +448,9 @@ img {
     /*gap: 24px;*/
 }
 
-.customers-item {nnnnnnnnnnn
-    /*width: calc((100% - 120px) / 3);*/
-    /*height: 88px;*/
+.customers-item {
+    width: calc((100% - 120px) / 3);
+    height: 88px;
 } 
 
 .customers-link { 
