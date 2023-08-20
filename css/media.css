@@ -1,4 +1,4 @@
-@media (max-width: 767.98px) {
+@media (max-width: 767.99px) {
 
     .header .nav-list,
     .header .address {
@@ -6,7 +6,7 @@
     }
 }
 
-@media (min-width: 1157px) {
+@media (min-width: 1158px) {
 
     .about-section,
     .icon-box {
@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (min-width: 0px, max-width: 428px) {
+@media screen and (min-width: 0px, max-width: 767.99px) {
     .address-phone {
         font-size: 36px;
         letter-spacing: 0.72px;
@@ -28,7 +28,7 @@
         gap: 72px;
     }
 }
-@media (min-width: 768px) and (min-resolution: 192dpi) {
+@media (min-width: 0px, max-width: 767.99px) {
     .container {
         max-width: 768px;
     }
@@ -192,7 +192,7 @@
     }
 }
 
-@media (min-width: 1158px) and (min-resolution: 192dpi) {
+@media (min-width: 1158px)  {
     /*.header {
         padding: 24px 0;
     }*/
@@ -373,7 +373,7 @@
 
 
 
-@media (min-width: 1158px) and (min-resolution: 192dpi) {
+@media (min-width: 1158px)  {
 .container-footer.container {
         max-width: 1116px;
     }
@@ -390,7 +390,7 @@
 
 
 
-@media (min-width: 768px) and (min-resolution: 192dpi) {
+@media (min-width: 768.99px)  {
 .container-footer {
         display: flex;
         flex-direction: row;
@@ -428,7 +428,7 @@
     transition: transform 250ms ease-in-out;
 }
 }
-@media (min-width: 0px) and (max-width: 428px) {
+@media (max-width: 767.99px) {
 .header {
     padding-top: 24.5px;
     padding-bottom: 24.5px;
