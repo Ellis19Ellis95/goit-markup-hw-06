@@ -30,7 +30,7 @@
       
     .container-footer.container {
     display: flex;
-    /*flex-direction: row;*/
+    flex-direction: row;
     justify-content: left;
     align-items: center;
     gap: 72px 24px;
