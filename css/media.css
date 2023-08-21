@@ -20,21 +20,26 @@
 
     .container-pref.container {
         width: 768px;
+        align-items: center;
 
     }
     .container-customers {
         width: 584px;
+        align-items: center;
     } 
     
     
     .pref-list-item {
         width: calc((100% - 24px)/2);
+        align-items: center;
     }
     .team-card {
         width: calc((100% - 24px)/2);
+        align-items: center;
     }
     .customers-item {
         width: calc((100% - 48px)/3);
+        align-items: center;
     }
     .container-footer.container {
     display: flex;
