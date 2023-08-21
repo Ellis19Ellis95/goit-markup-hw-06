@@ -76,23 +76,37 @@ img {
     align-items: center;
 }
 
+
+
 .nav {
     display: flex;
     align-items: center;
 }
+
+/*.logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--second-logo-color);
+    /*margin-right: 76px;
+}
+*/
 
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    /*align-items: center;*/
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    /*text-decoration: none;*/
     color: var(--second-logo-color);
-    /*margin-right: 76px;*/
+    text-transform: uppercase;
 }
+
 
 .link-studio {
     color: var(--first-logo-color);
@@ -119,6 +133,8 @@ img {
     display: block;
     width: 100%;
 }
+
+
 
 /*.nav-link {
     display: block;
@@ -269,7 +285,8 @@ img {
 .pref-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px; 
+    gap: 72px 24px; 
+    width: calc((100 - 24px)/2);
 }
 
 /*.pref-list-item {
