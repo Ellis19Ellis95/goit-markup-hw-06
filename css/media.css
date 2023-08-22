@@ -35,7 +35,7 @@
     align-items: center;
     gap: 72px 24px;
     flex-wrap: wrap;
-    
+
     }
 }
 
@@ -221,6 +221,7 @@
 
     .container-footer {
         max-width: 584px;
+        flex-direction: row;
     }
     .pref-list-item {
         width: calc((100% - 24px)/2);
